@@ -1,0 +1,13 @@
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/fotos', { useMongoClient: true });
+
+var qqSchema = mongoose.Schema({
+    qq:String,
+    url:String
+})
+
+var Qq = mongoose.model('Qq',qqSchema);
+
+module.exports={
+    Qq
+}

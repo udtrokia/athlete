@@ -1,0 +1,24 @@
+nohup: ignoring input
+yarn run v1.1.0
+$ react-scripts start
+Starting the development server...
+
+Compiled successfully!
+
+You can now view qnft in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://172.19.253.112:3000/
+
+Note that the development build is not optimized.
+To create a production build, use yarn build.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Done in 6151.71s.

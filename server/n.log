@@ -1,0 +1,369 @@
+nohup: ignoring input
+yarn run v1.1.0
+$ nodejs ./bin/www
+[90mOPTIONS /upload?qq=291509701&name=%E7%94%A8%E6%B2%99%E6%BC%8F%E5%81%9A%E6%8B%9B%E7%89%8C%E7%9A%84%E7%96%97%E5%85%BB%E9%99%A2 [32m200 [90m6ms - 12b[0m
+{ Error: EEXIST: file already exists, mkdir 'public/fotos/291509701'
+    at Error (native)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'mkdir',
+  path: 'public/fotos/291509701' }
+{ Error: EEXIST: file already exists, mkdir 'public/fotos/291509701'
+    at Error (native)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'mkdir',
+  path: 'public/fotos/291509701' }
+{ Error: EEXIST: file already exists, mkdir 'public/fotos/291509701'
+    at Error (native)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'mkdir',
+  path: 'public/fotos/291509701' }
+{ Error: EEXIST: file already exists, mkdir 'public/fotos/291509701'
+    at Error (native)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'mkdir',
+  path: 'public/fotos/291509701' }
+{ Error: EEXIST: file already exists, mkdir 'public/fotos/291509701'
+    at Error (native)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'mkdir',
+  path: 'public/fotos/291509701' }
+{ Error: EEXIST: file already exists, mkdir 'public/fotos/291509701'
+    at Error (native)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'mkdir',
+  path: 'public/fotos/291509701' }
+{}
+[ { fieldname: 'photos',
+    originalname: 'bowie.jpg',
+    encoding: '7bit',
+    mimetype: 'image/jpeg',
+    destination: 'public/fotos/291509701',
+    filename: '291509701-1509152543285',
+    path: 'public/fotos/291509701/291509701-1509152543285',
+    size: 28220 },
+  { fieldname: 'photos',
+    originalname: 'camus.jpg',
+    encoding: '7bit',
+    mimetype: 'image/jpeg',
+    destination: 'public/fotos/291509701',
+    filename: '291509701-1509152543309',
+    path: 'public/fotos/291509701/291509701-1509152543309',
+    size: 28400 },
+  { fieldname: 'photos',
+    originalname: 'dylan.jpg',
+    encoding: '7bit',
+    mimetype: 'image/jpeg',
+    destination: 'public/fotos/291509701',
+    filename: '291509701-1509152543315',
+    path: 'public/fotos/291509701/291509701-1509152543315',
+    size: 75146 },
+  { fieldname: 'photos',
+    originalname: 'iggy pop.jpg',
+    encoding: '7bit',
+    mimetype: 'image/jpeg',
+    destination: 'public/fotos/291509701',
+    filename: '291509701-1509152543317',
+    path: 'public/fotos/291509701/291509701-1509152543317',
+    size: 29200 },
+  { fieldname: 'photos',
+    originalname: 'jobs.jpg',
+    encoding: '7bit',
+    mimetype: 'image/jpeg',
+    destination: 'public/fotos/291509701',
+    filename: '291509701-1509152543319',
+    path: 'public/fotos/291509701/291509701-1509152543319',
+    size: 18523 },
+  { fieldname: 'photos',
+    originalname: 'lennon.jpg',
+    encoding: '7bit',
+    mimetype: 'image/jpeg',
+    destination: 'public/fotos/291509701',
+    filename: '291509701-1509152543320',
+    path: 'public/fotos/291509701/291509701-1509152543320',
+    size: 19484 },
+  { fieldname: 'photos',
+    originalname: 'lou reed.jpg',
+    encoding: '7bit',
+    mimetype: 'image/jpeg',
+    destination: 'public/fotos/291509701',
+    filename: '291509701-1509152543326',
+    path: 'public/fotos/291509701/291509701-1509152543326',
+    size: 8961 } ]
+[90mPUT /upload?qq=291509701&name=%E7%94%A8%E6%B2%99%E6%BC%8F%E5%81%9A%E6%8B%9B%E7%89%8C%E7%9A%84%E7%96%97%E5%85%BB%E9%99%A2 [32m200 [90m68ms - 17b[0m
+[90mOPTIONS /upload?qq=291509701&name=%E7%94%A8%E6%B2%99%E6%BC%8F%E5%81%9A%E6%8B%9B%E7%89%8C%E7%9A%84%E7%96%97%E5%85%BB%E9%99%A2 [32m200 [90m1ms - 12b[0m
+{ Error: EEXIST: file already exists, mkdir 'public/fotos/291509701'
+    at Error (native)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'mkdir',
+  path: 'public/fotos/291509701' }
+{ Error: EEXIST: file already exists, mkdir 'public/fotos/291509701'
+    at Error (native)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'mkdir',
+  path: 'public/fotos/291509701' }
+{}
+[ { fieldname: 'photos',
+    originalname: 'assange.jpg',
+    encoding: '7bit',
+    mimetype: 'image/jpeg',
+    destination: 'public/fotos/291509701',
+    filename: '291509701-1509152569086',
+    path: 'public/fotos/291509701/291509701-1509152569086',
+    size: 11446 },
+  { fieldname: 'photos',
+    originalname: 'cobain.jpg',
+    encoding: '7bit',
+    mimetype: 'image/jpeg',
+    destination: 'public/fotos/291509701',
+    filename: '291509701-1509152569088',
+    path: 'public/fotos/291509701/291509701-1509152569088',
+    size: 20964 } ]
+[90mPUT /upload?qq=291509701&name=%E7%94%A8%E6%B2%99%E6%BC%8F%E5%81%9A%E6%8B%9B%E7%89%8C%E7%9A%84%E7%96%97%E5%85%BB%E9%99%A2 [32m200 [90m10ms - 17b[0m
+{ page: '0' }
+[90mGET /mongo?page=0 [32m200 [90m28ms - 1.63kb[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [32m200 [90m11ms - 27.56kb[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [32m200 [90m13ms - 27.73kb[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [32m200 [90m14ms - 28.52kb[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [32m200 [90m15ms - 73.38kb[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [32m200 [90m10ms - 18.09kb[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [32m200 [90m9ms - 19.03kb[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [32m200 [90m3ms - 8.75kb[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [32m200 [90m1ms - 11.18kb[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [32m200 [90m2ms - 20.47kb[0m
+{ page: '1' }
+[90mGET /mongo?page=1 [32m200 [90m12ms - 2b[0m
+{ page: '0' }
+[90mGET /mongo?page=0 [36m304 [90m6ms[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [36m304 [90m4ms[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [36m304 [90m2ms[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [36m304 [90m2ms[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [36m304 [90m1ms[0m
+{ page: '0' }
+[90mGET /mongo?page=0 [36m304 [90m9ms[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [36m304 [90m9ms[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [36m304 [90m15ms[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [36m304 [90m17ms[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [36m304 [90m16ms[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [36m304 [90m0ms[0m
+{ page: '0' }
+[90mGET /mongo?page=0 [36m304 [90m3ms[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [36m304 [90m5ms[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [36m304 [90m5ms[0m
+{ page: '1' }
+[90mGET /mongo?page=1 [36m304 [90m2ms[0m
+{ page: '0' }
+[90mGET /mongo?page=0 [36m304 [90m5ms[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [36m304 [90m2ms[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [36m304 [90m2ms[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [36m304 [90m3ms[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [36m304 [90m4ms[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [36m304 [90m3ms[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [36m304 [90m1ms[0m
+{ page: '0' }
+[90mGET /mongo?page=0 [32m200 [90m4ms - 1.63kb[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [32m200 [90m3ms - 28.52kb[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [32m200 [90m4ms - 27.73kb[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [32m200 [90m5ms - 73.38kb[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [32m200 [90m3ms - 27.56kb[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [32m200 [90m1ms - 18.09kb[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [32m200 [90m2ms - 19.03kb[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [32m200 [90m5ms - 11.18kb[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [32m200 [90m4ms - 20.47kb[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [32m200 [90m5ms - 8.75kb[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [36m304 [90m2ms[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [36m304 [90m2ms[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [36m304 [90m1ms[0m
+[90mOPTIONS /mongo [32m200 [90m0ms - 12b[0m
+The raw response from Mongo was  { n: 1, nModified: 1, ok: 1 }
+[90mPUT /mongo [32m200 [90m8ms - 37b[0m
+{ page: '1' }
+[90mGET /mongo?page=1 [32m200 [90m2ms - 2b[0m
+{ page: '2' }
+[90mGET /mongo?page=2 [32m200 [90m2ms - 2b[0m
+{ page: '4' }
+[90mGET /mongo?page=4 [32m200 [90m2ms - 2b[0m
+{ page: '7' }
+[90mGET /mongo?page=7 [32m200 [90m2ms - 2b[0m
+{ page: '6' }
+[90mGET /mongo?page=6 [32m200 [90m2ms - 2b[0m
+{ page: '5' }
+[90mGET /mongo?page=5 [32m200 [90m2ms - 2b[0m
+{ page: '4' }
+[90mGET /mongo?page=4 [36m304 [90m2ms[0m
+{ page: '3' }
+[90mGET /mongo?page=3 [32m200 [90m2ms - 2b[0m
+{ page: '2' }
+[90mGET /mongo?page=2 [36m304 [90m2ms[0m
+{ page: '1' }
+[90mGET /mongo?page=1 [36m304 [90m4ms[0m
+{ page: '0' }
+[90mGET /mongo?page=0 [32m200 [90m4ms - 1.63kb[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [36m304 [90m2ms[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [36m304 [90m5ms[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [36m304 [90m3ms[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [36m304 [90m4ms[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [36m304 [90m0ms[0m
+{ page: '0' }
+[90mGET /mongo?page=0 [32m200 [90m8ms - 1.63kb[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [36m304 [90m2ms[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [36m304 [90m1ms[0m
+{ page: '0' }
+[90mGET /mongo?page=0 [36m304 [90m3ms[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [36m304 [90m2ms[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [36m304 [90m0ms[0m
+{ page: '0' }
+[90mGET /mongo?page=0 [36m304 [90m3ms[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [36m304 [90m3ms[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [36m304 [90m4ms[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [36m304 [90m0ms[0m
+{ page: '0' }
+[90mGET /mongo?page=0 [36m304 [90m3ms[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [36m304 [90m14ms[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [36m304 [90m14ms[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [36m304 [90m14ms[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [36m304 [90m6ms[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [36m304 [90m2ms[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [36m304 [90m1ms[0m
+{ page: '1' }
+[90mGET /mongo?page=1 [36m304 [90m9ms[0m
+{ page: '0' }
+[90mGET /mongo?page=0 [36m304 [90m6ms[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [36m304 [90m0ms[0m
+[90mOPTIONS /upload?qq=291509701&name=%E7%94%A8%E6%B2%99%E6%BC%8F%E5%81%9A%E6%8B%9B%E7%89%8C%E7%9A%84%E7%96%97%E5%85%BB%E9%99%A2 [32m200 [90m1ms - 12b[0m
+{ Error: EEXIST: file already exists, mkdir 'public/fotos/291509701'
+    at Error (native)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'mkdir',
+  path: 'public/fotos/291509701' }
+{}
+[ { fieldname: 'photos',
+    originalname: 'cobain.jpg',
+    encoding: '7bit',
+    mimetype: 'image/jpeg',
+    destination: 'public/fotos/291509701',
+    filename: '291509701-1509153216282',
+    path: 'public/fotos/291509701/291509701-1509153216282',
+    size: 20964 } ]
+[90mPUT /upload?qq=291509701&name=%E7%94%A8%E6%B2%99%E6%BC%8F%E5%81%9A%E6%8B%9B%E7%89%8C%E7%9A%84%E7%96%97%E5%85%BB%E9%99%A2 [32m200 [90m4ms - 17b[0m
+{ page: '0' }
+[90mGET /mongo?page=0 [32m200 [90m3ms - 1.81kb[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509153216282 [32m200 [90m1ms - 20.47kb[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [36m304 [90m1ms[0m
+{ page: '1' }
+[90mGET /mongo?page=1 [36m304 [90m2ms[0m
+{ page: '0' }
+[90mGET /mongo?page=0 [36m304 [90m13ms[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [36m304 [90m2ms[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509153216282 [36m304 [90m0ms[0m
+{ page: '0' }
+[90mGET /mongo?page=0 [36m304 [90m7ms[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509153216282 [36m304 [90m1ms[0m
+{ page: '0' }
+[90mGET /mongo?page=0 [36m304 [90m3ms[0m
+[90mGET /fotos/291509701/291509701-1509152543285 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543309 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543315 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543317 [36m304 [90m1ms[0m
+[90mGET /fotos/291509701/291509701-1509152543319 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543320 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152543326 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152569086 [36m304 [90m0ms[0m
+[90mGET /fotos/291509701/291509701-1509152569088 [36m304 [90m2ms[0m
+[90mGET /fotos/291509701/291509701-1509153216282 [36m304 [90m1ms[0m
+Terminated
+error Command failed with exit code 143.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
