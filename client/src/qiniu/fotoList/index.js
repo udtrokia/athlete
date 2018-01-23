@@ -8,13 +8,11 @@ import {
     CardImg,
     CardBody,
     CardText,
-    ButtonGroup,
-    ButtonToolbar    
 }from 'reactstrap'
 import logo from './logo.svg';
 import './App.css';
-import createHistory from 'history/createBrowserHistory'
-const history = createHistory()
+import Scroll from 'react-scroll'
+import scroll from 'react-scroll'
 
 export default class Index extends Component{
     constructor(props){
@@ -31,7 +29,8 @@ export default class Index extends Component{
 	}
     }
     componentWillMount(){
-	let hash = this.props.location.hash
+	let Events = Scroll.Events
+	Events.scrollEvent.register()
     }
     componentDidMount(){
 	this.getList(this.state.page)
@@ -41,7 +40,7 @@ export default class Index extends Component{
 	    col:{},
 	    page:page
 	}
-	$.get('http://upload.udtrokia.com/mongo',options,(res)=>{
+	$.get('http://localhost:9999/mongo',options,(res)=>{
 	    this.setState({fotoList:res})
 	})
     }
@@ -51,7 +50,7 @@ export default class Index extends Component{
 	    thumb:Number(foto.thumb)+1
 	}
         $.ajax({
-	    url: 'http://upload.udtrokia.com/mongo',
+	    url: 'http://localhost:9999/mongo',
 	    type:'put',
 	    dataType:'JSON',
 	    data:options,
@@ -78,7 +77,7 @@ export default class Index extends Component{
 		    </Col>
 	    )
 	})
-	return <div className="text-center">{fotoList}</div>
+	return <div >{fotoList}</div>
     }
     gohash=(n)=>{
 	let page = this.state.page
@@ -86,26 +85,6 @@ export default class Index extends Component{
 	    page:page+n
 	})
 	this.getList(page+n)
-    }
-    paginList=()=>{
-	let page=this.state.page
-	return(
-		<ButtonToolbar className="text-center m-3">
-		<Col>
-		<ButtonGroup>
-		<Button  onClick={()=>this.gohash(-1)}>{"<"}</Button>
-		<Button color="primary"  onClick={()=>this.gohash(0)}>{page+1}</Button>
-		<Button  onClick={()=>this.gohash(1)}>{page+2}</Button>
-		<Button  onClick={()=>this.gohash(2)}>{page+3}</Button>
-		<Button  onClick={()=>this.gohash(3)}>{page+4}</Button>
-		<Button  onClick={()=>this.gohash(4)}>{page+5}</Button>
-		<Button  onClick={()=>this.gohash(5)}>{page+6}</Button>
-		<Button  onClick={()=>this.gohash(6)}>{page+7}</Button>
-		<Button  onClick={()=>this.gohash(1)}>{">"}</Button>
-		</ButtonGroup>
-		</Col>
-		</ButtonToolbar>
-	)
     }
     render() {
 	return (
@@ -118,7 +97,6 @@ export default class Index extends Component{
 		觉得拍的还不错就点个赞吧~
 	    </p>
 		{this.fotoList()}	    
-	    {this.paginList()}
 		<div style={{height:"5rem",backgroundColor:'#222',bottom:0}} />
 		</div>
 	);

@@ -29,6 +29,9 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/',(req,res)=>{
+    console.log('get me ')
+})
 app.use('/upload',upload);
 app.use('/mongo',mongo)
 

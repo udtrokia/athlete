@@ -19,7 +19,7 @@ var storage = multer.diskStorage({
 	let qq = req.query.qq
 	let name = req.query.name
 	let path=qq+'-'+Date.now()
-	let fotoUrl = "http://upload.udtrokia.com/fotos/"+qq+'/'+path
+	let fotoUrl = "http://localhost:9999/fotos/"+qq+'/'+path
 	let qqid = new Qq({qq:qq,name:name,url:fotoUrl,thumb:0})
 	qqid.save()
 	cb(null,path)
